@@ -14,9 +14,7 @@ public class PhoneInfo {
 	private void storage() {
 		System.out.println("64 GB");
 	}
-	private void osName() {
-		System.out.println("ios 13.6.1");
-	}
+	
 	//Execute
 	public static void main(String[] args) {
 		PhoneInfo c = new PhoneInfo();
@@ -24,7 +22,7 @@ public class PhoneInfo {
 		c.phoneMieiNum();
 		c.Camera();
 		c.storage();
-		c.osName();
+		
 	}
 
 }
